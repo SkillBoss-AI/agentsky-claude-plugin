@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agentsky": {
+      "type": "http",
+      "url": "https://api.agentsky.dev/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

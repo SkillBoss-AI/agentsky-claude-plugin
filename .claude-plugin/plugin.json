@@ -1,0 +1,34 @@
+{
+  "name": "agentsky",
+  "displayName": "AgentSky",
+  "version": "0.1.0",
+  "description": "Hand work to AgentSky cloud agents: hire agents from the AgentSky catalog, run them as long-lived cloud sessions, and collect their results, through AgentSky's MCP server and the agentsky skill.",
+  "author": {
+    "name": "AgentSky",
+    "url": "https://agentsky.dev"
+  },
+  "homepage": "https://agentsky.dev",
+  "repository": "https://github.com/SkillBoss-AI/agentsky-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "cloud",
+    "subagents",
+    "mcp",
+    "sessions",
+    "orchestration"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://agentsky.dev/docs/mcp",
+  "privacyPolicyUrl": "https://agentsky.dev/privacy",
+  "termsOfServiceUrl": "https://agentsky.dev/terms",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "AgentSky API key",
+      "description": "An ast_ key with write scope, from https://platform.agentsky.dev/developer/api-keys",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

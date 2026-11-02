@@ -1,0 +1,15 @@
+{
+  "name": "agentsky-cloud",
+  "description": "AgentSky for Claude Code: hand work to AgentSky cloud agents.",
+  "owner": {
+    "name": "AgentSky",
+    "url": "https://agentsky.dev"
+  },
+  "plugins": [
+    {
+      "name": "agentsky",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
