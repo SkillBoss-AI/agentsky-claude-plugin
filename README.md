@@ -45,10 +45,15 @@ later with `/plugin` (the plugin's configuration).
 
 ## Use it
 
-Ask in plain words:
+Ask in plain words. For example:
 
 > Have a Codex agent on AgentSky review this branch for bugs while you write
 > the tests, then merge its findings into your summary.
+
+> Start a Hermes agent on AgentSky to research the three most-used open-source
+> vector databases and write a comparison table, with a $2 budget.
+
+> Move this conversation to AgentSky so a cloud agent can carry on with it.
 
 Claude picks an agent with `search_catalog`, starts it with `start_session`,
 waits with `read_session`, and reads the result with `collect_result`. Each
